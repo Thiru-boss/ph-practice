@@ -46,3 +46,11 @@ print(sum(s1))
 print(sum(s2))
 print(sum(s3))
 print(sum(s4))
+
+'''number of present in class period wise f/n and a/n (Nested list)'''
+boys = [[48,45,49],[39,36,30]]
+girls = [[35,35,33],[32,35,31]]
+print('boys present in f/n:',boys[0])
+print('girls present in a/n:', girls[-1])
+print('First and last period of boys present:', boys[0][0], boys[1][-1])
+print('First and last period of girls present:', girls[0][-3], girls[-1][2])
