@@ -13,3 +13,7 @@ print(cars_mileage[0:3])
 '''changing cars mileage'''
 cars_mileage[2:4] = [17,11]
 print(cars_mileage)
+
+#Listing car names rows into column
+for i in carsname:
+    print(i)
